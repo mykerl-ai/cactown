@@ -1,0 +1,169 @@
+.attributes {
+    margin-top: 70px;
+    width: 100%;
+
+}
+
+.tab {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
+    padding: 0px 40px 20px 40px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.tabPic {
+width: 435px;
+height: 450px;
+background: url('../assets/cactus_image.jpeg');
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+
+.tabText h2 {
+    font-family: Changa;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 88px;
+/* identical to box height */
+
+text-align: left;
+text-transform: capitalize;
+
+color: #003751;
+
+}
+
+.tabText p{
+    font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 2rem;
+text-transform: capitalize;
+text-align: left;
+color: #003751;
+padding-right: 70px;
+margin-bottom: 20px;
+}
+
+.attrSpan {
+    width: 247px;
+background: #003751;
+border-radius: 42px;
+border: none;
+font-family: Changa;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+color: #FFFFFF;
+}
+
+.parts button {
+width: 167px;
+height: 60px;
+margin: 0px 20px;
+border: none;
+margin-bottom: 30px;
+background: #121719;
+border-radius: 4px;
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 34px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.parts button:active {
+    background: #FFC160;
+    font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 34px;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+    
+}
+
+.item1 {
+    width: 237px;
+    height: 257px;
+    background: #003751;
+    border-radius: 40px;
+    background-position: center;
+    padding: 0px 10px;
+}
+
+.cact {
+    width: 116px;
+    height: 116px;
+    background: url('../assets/cactus.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+
+.cactName {
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 34px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.rare {
+font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 139.99%;
+text-transform: capitalize;
+margin-top: 20px;
+color: #FFFFFF;
+}
+
+.rare span {
+    color: #FFC160;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .tab {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        padding: 0px 10px 20px 10px;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .tabPic {
+        width: 100%;
+        height: 350px;
+        }
+}

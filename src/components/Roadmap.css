@@ -1,0 +1,142 @@
+.road {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 30px;
+   justify-content: center;
+   gap: 20px;
+   padding: 20px;
+}
+
+.roadBox {
+    width: 100%;
+    height: auto;
+    background: #003751;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.roadBox h1 {
+font-family: 'Press Start 2P', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+text-align: left;
+
+color: #FFFFFF;
+
+}
+
+.roadBox h5 {
+    font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+text-align: left;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.roadBox p {
+font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 2.5rem;
+text-align: left;
+padding-right: 200px;
+color: #FFFFFF;
+}
+
+.roadBox svg {
+    margin-top: 30px;
+}
+
+.roadBox1 {
+    width: 100%;
+    height: auto;
+    background: none;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.orange {
+    width: 80%;
+    height: auto;
+    background: #FFC160;
+    padding: 30px 10px;
+border-radius: 39px;
+}
+
+.grow {
+    flex-shrink: 1;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+.road {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px 50px 10px;
+   justify-content: center;
+   gap: 20px;
+   padding: 0px;
+}
+
+.orange {
+    width: 80%;
+    height: auto;
+    background: #FFC160;
+    padding: 30px 20px;
+border-radius: 39px;
+}
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .road {
+        display: flex;
+        flex-direction: column;
+        margin: 50px 50px 50px 10px;
+       justify-content: center;
+       gap: 10px;
+       padding: 0px;
+    }
+    
+    .orange {
+        width: 80%;
+        height: auto;
+        background: #FFC160;
+        padding: 10px 20px;
+    border-radius: 39px;
+    }
+
+    .roadBox h5 {
+        font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: left;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+    }
+    
+    .roadBox p {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 2.5rem;
+    text-align: left;
+    padding-right: 0px;
+    color: #FFFFFF;
+    }
+}

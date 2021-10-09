@@ -1,0 +1,129 @@
+.footer {
+    width: 100%;
+}
+
+.footerbar {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background: #003751;
+    display: flex;
+    gap: 50px;
+    padding: 40px;
+    justify-content: space-around;
+}
+
+.name, .menu {
+    width: auto;
+    height: auto;
+    padding: 0px 20px;
+}
+
+.footer h6 {
+    font-family: Changa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFC160;
+}
+
+.footer a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.name p {
+    font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+text-align: left;
+width: 263px;
+height: auto;
+color: #FFFFFF;
+}
+
+.name ul {
+    padding: 0px;
+}
+
+.name li {
+    list-style-type: none;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 18px;
+margin: 30px 0px;
+color: #FFFFFF;
+text-align: left;
+}
+
+.social {
+    display: flex;
+    gap: 40px;
+}
+
+.social button {
+    background: none;
+    border: none;
+}
+
+.year {
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+}
+
+.year h5 {
+    font-family: Changa;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 88px;
+text-transform: capitalize;
+color: #003751;
+
+}
+
+.year p {
+    
+font-family: Changa;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 66px;
+
+color: #58BEDB;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .footerbar {
+        justify-items: center;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .footerbar {
+        height: auto;
+        flex-direction: column;
+        display: flex;
+        gap: 10px;
+        padding: 40px;
+        justify-items: left;
+        place-content: left;
+    }
+
+    .year {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        place-items: center;
+    }
+}

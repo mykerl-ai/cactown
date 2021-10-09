@@ -1,0 +1,360 @@
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 50px;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+
+.grid {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    justify-items: center;
+    place-content: center;
+}
+
+.item {
+    width: 336px;
+height: 376px;
+background: #003751;
+border-radius: 40px;
+background-position: center;
+padding: 0px 10px;
+}
+
+.heading {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 22px;
+/* identical to box height, or 92% */
+text-transform: capitalize;
+text-align: center;
+margin: 50px 0px;
+color: #FFFFFF;
+}
+
+.body {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+/* or 153% */
+margin: 10px 20px;
+text-align: justify;
+
+color: #FFFFFF;
+}
+
+.mint   {
+    width: 100%;
+    height: auto;
+    background: #FFC160;
+    padding-bottom: 40px;
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    justify-content: center;
+}
+
+.head {
+    font-family: Changa;
+font-style: normal;
+font-weight: bold;
+font-size: 52px;
+letter-spacing: 0px;
+text-transform: capitalize;
+
+color: #003751;
+
+}
+
+.bod {
+    font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+/* or 179% */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.block {
+width: 478px;
+height: 582px;
+margin-top: 60px;
+background: #FFFFFF
+}
+
+.single {
+    font-family: Changa;
+font-style: normal;
+font-weight: bold;
+font-size: 44px;
+line-height: 88px;
+text-transform: capitalize;
+
+color: #003751;
+
+}
+
+.one {
+    font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+/* identical to box height, or 179% */
+
+
+color: #003751;
+
+}
+
+.circle {
+    width: 200px;
+height: 200px;
+background: #003751;
+border-radius: 50%;
+margin-left: 140px;
+margin-top: 40px;
+
+}
+
+.circle p {
+    text-align: center;
+font-family: Changa;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+text-transform: capitalize;
+padding-top: 60px;
+color: #FFFFFF;
+}
+
+.divider {
+    width: 100%;
+    border: 1px solid #003751;
+    margin-top: 70px;
+}
+
+
+.block button {
+    width: auto;
+background: #FFC160;
+border-radius: 42px;
+border: none;
+margin-top: 30px;
+padding: 15px 25px;
+font-family: Changa;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+text-transform: capitalize;/* identical to box height */
+
+text-align: center;
+
+color: #003751;
+}
+
+.rep {
+    font-family: Changa;
+font-style: normal;
+font-weight: bold;
+font-size: 58px;
+color: #003751;
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .grid {
+        display: flex;
+        width: 100%;
+        gap: 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        justify-items: center;
+        place-content: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+    .grid {
+        display: flex;
+        width: 100%;
+        gap: 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        justify-content: center;
+        place-content: center;
+    }
+
+    .item {
+    width: 236px;
+    height: auto;
+    padding: 0px;
+
+    }
+
+    .body {
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 27px;
+    /* or 153% */
+    margin: 10px 20px;
+    text-align: justify;
+    
+    color: #FFFFFF;
+    }
+
+
+    .circle {
+        width: 200px;
+    height: 200px;
+    background: #003751;
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-top: 40px;
+    
+    }
+
+    .rep {
+        font-family: Changa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: #003751;
+    
+    }
+
+    .infotext h2 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: 3px;
+        text-transform: capitalize;
+        text-align: center;
+        color: #FFFFFF;
+        }
+        
+        .infotext p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 36px;
+        /* or 179% */
+        text-align: left;
+        text-transform: capitalize;
+        
+        color: #FFFFFF;
+        
+        }
+
+        .infobox {
+            width: 288px;
+            height: 393px;
+            background: #12171A;
+            box-shadow: 4px 2px 8px 1px rgba(182, 157, 20, 0.5);
+            border-radius: 30px;
+            margin-top: 50px;
+            }
+            
+            .infobox h5 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 42px;
+            text-transform: capitalize;
+            
+            color: #FFFFFF;
+            }
+            
+            .infobox p {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 43px;
+            /* or 179% */
+            
+            margin-top: -50px;
+            color: #FFFFFF;
+            
+            }
+
+            .btn {
+                width: 121px;
+                height: 45px;
+                background: #B69D14;
+                border: none;
+                border-radius: 6px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 14px;
+                line-height: 44px;
+                text-align: center;
+                text-transform: uppercase;
+                margin: 77px 0px;
+                color: #FFFFFF;
+            }
+
+            .line {
+                display: none;
+                
+                }
+
+            .box {
+                font-size: 48px;
+                width: 100%;
+                height: 80.64px;
+                padding: 10px 0px 0px 0px;
+            }
+
+            .heading {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 18px;
+                line-height: 20px;
+                /* identical to box height, or 92% */
+                text-transform: capitalize;
+                text-align: center;
+                margin: 30px 0px;
+                color: #FFFFFF;
+                }
+                
+                .body {
+                    font-family: Montserrat;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 27px;
+                /* or 153% */
+                margin: 10px 20px;
+                text-align: justify;
+                
+                color: #FFFFFF;
+                }
+            
+}
