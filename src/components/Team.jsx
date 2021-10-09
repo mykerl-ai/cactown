@@ -11,21 +11,21 @@ const Team = ()=> {
                     <img src={member} alt="" />
                     <span>Mike</span>
                     <p>Lead game developer</p>
-                    <p>20 years experiencet</p>
+                    <p>20 years experience</p>
                 </div>
 
                 <div className="member">
                     <img src={member} alt="" />
                     <span>Mike</span>
                     <p>Lead game developer</p>
-                    <p>20 years experiencet</p>
+                    <p>20 years experience</p>
                 </div>
 
                 <div className="member">
                     <img src={member} alt="" />
                     <span>Mike</span>
                     <p>Lead game developer</p>
-                    <p>20 years experiencet</p>
+                    <p>20 years experience</p>
                 </div>
             </div>
 
