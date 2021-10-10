@@ -7,16 +7,16 @@ const Info = () => {
           <div className="grid">
             <div className="item">
                 <p className="heading"> 10k ever minted</p>
-                <p className="body">Each Might Tiger is unique & algorithmically generated & minted on the Solana blockchain.</p>
-                <p className="body"> We are only ever generating 10k completely unique Sol Souls. There will be no further generations.</p>
+                <p className="body">Each Cactown is unique & algorithmically generated & minted on the Solana blockchain.</p>
+                <p className="body"> We are only ever generating 10k completely unique Cactowns. There will be no further generations.</p>
             
             </div>
 
-            <div className="item"> <p className="heading"> MightyTigers are arriving</p>
-                <p className="body">Get in on the ground floor by collecting the exclusive Sol Souls NFTs. See our roadmap for our future plans, including our DAPP interactive SOUL FUSION feature.</p>
+            <div className="item"> <p className="heading"> Cactowns are arriving</p>
+                <p className="body">Get in on the ground floor by collecting the exclusive Cactown NFTs. See our roadmap for our future plans, including our DAPP interactive CACTOWN FUSION feature.</p>
             </div>
 
-            <div className="item"> <p className="heading">Join the Tiger train</p>
+            <div className="item"> <p className="heading">Join Cactown</p>
                 <p className="body">Get the latest updates & get exclusive air drops & contests.</p>
             </div>
         </div>

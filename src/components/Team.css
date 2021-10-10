@@ -50,15 +50,16 @@ color: rgba(0, 55, 81, 0.8);
 
 @media (min-width: 320px) and (max-width: 480px) {
     .team {
-        
+        padding: 20px 0px;
         flex-direction: column;
+        gap: 20px;
     }
 
     .member{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 30px;
+        gap: 20px;
     }
 
     .member img {
