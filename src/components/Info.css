@@ -130,7 +130,7 @@ margin-top: 40px;
 }
 
 .circle p {
-    text-align: center;
+text-align: center;
 font-family: Changa;
 font-style: normal;
 font-weight: bold;
@@ -240,8 +240,8 @@ color: #003751;
     height: 200px;
     background: #003751;
     border-radius: 50%;
-    margin-left: 50px;
-    margin-top: 40px;
+    margin-left: 0px;
+    margin-top: 10px;
     
     }
 
@@ -295,6 +295,13 @@ color: #003751;
     }
     
     .block {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
     width: 90%;
     height: auto;
     margin-top: 20px;
@@ -333,7 +340,7 @@ color: #003751;
     font-weight: bold;
     font-size: 42px;
     text-transform: capitalize;
-    padding-top: 60px;
+    padding-top: 10px;
     color: #FFFFFF;
     }
     

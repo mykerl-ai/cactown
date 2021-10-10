@@ -28,7 +28,7 @@ const Navbar = () => {
 
                     {menu &&
                 <div className="hamMenu">
-                     <Link to="/" href="#">Home</Link>
+                <Link to="/" href="#">Home</Link>
                 <Link to="/roadmap" href="#">Roadmap</Link>
                 <HashLink smooth to="/#team">Team</HashLink>
                 <Link to="/attributes">Attributes</Link>

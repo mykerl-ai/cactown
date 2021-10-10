@@ -84,6 +84,7 @@ color: #FFFFFF;
         .hero {
             background-size: contain;
             background-position: center;
+            padding-top: 10px;
         }
 
         .flex {

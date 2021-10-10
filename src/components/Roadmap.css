@@ -148,4 +148,13 @@ border-radius: 39px;
     padding-right: 0px;
     color: #FFFFFF;
     }
+
+    .roadBox div {
+        flex-grow: 0;
+    }
+
+    .roadBox svg {
+        flex-shrink: 0;
+    }
+    
 }
