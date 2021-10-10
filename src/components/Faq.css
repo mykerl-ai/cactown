@@ -50,3 +50,39 @@ line-height: 34px;
 text-align: left;
 color: #003751;
 }
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .span {
+        width: 70px;
+    background: #FFC160;
+    border-radius: 42px;
+    border: none;
+    padding: 10px 20px;
+    font-family: Changa;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;/* identical to box height */
+    
+    text-align: center;
+    
+    color: #003751;
+    }
+
+    .question {
+        font-family: Changa;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        text-transform: capitalize;
+        text-align: left;
+        color: #003751;
+        
+    }
+
+    .answer {
+        font-size: 14px;
+    }
+}

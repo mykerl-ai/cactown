@@ -152,12 +152,24 @@ color: #FFFFFF;
 
 @media (min-width: 320px) and (max-width: 480px) {
 
+    .attrSpan {
+    width: 147px;
+    background: #003751;
+    border-radius: 42px;
+    border: none;
+    font-family: Changa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    }
+
     .tab {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         height: auto;
-        padding: 0px 10px 20px 10px;
+        padding: 0px 10px 20px 0px;
         gap: 30px;
         justify-content: center;
     }
@@ -166,4 +178,91 @@ color: #FFFFFF;
         width: 100%;
         height: 350px;
         }
+
+        .tabText {
+            margin-left: 10px;
+        }
+
+        .tabText h2 {
+        font-family: Changa;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 2rem;
+        text-align: left;
+        text-transform: capitalize;
+        color: #003751;
+        
+        }
+        
+        .parts div {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin: 0px 10px;
+            gap: 5px;
+        }
+
+        .parts button {
+            width: auto;
+            height: auto;
+            margin: 0px 0px;
+            border: none;
+            margin-bottom: 10px;
+            background: #121719;
+            border-radius: 4px;
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 2rem;
+            /* identical to box height */
+            
+            text-transform: capitalize;
+            
+            color: #FFFFFF;
+            }
+
+            .item1 {
+                width: 137px;
+                height: 157px;
+                background: #003751;
+                border-radius: 40px;
+                background-position: center;
+                padding: 10px 10px;
+            }
+
+            .cact {
+                width: 80px;
+                height: 80px;
+                background: url('../assets/cactus.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                margin-left: 25px;
+            }
+            
+            .cactName {
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 2rem;
+            /* identical to box height */
+            
+            text-transform: capitalize;
+            
+            color: #FFFFFF;
+            }
+            
+            .rare {
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 2rem;
+            text-transform: capitalize;
+            margin-top: 20px;
+            color: #FFFFFF;
+            }
 }

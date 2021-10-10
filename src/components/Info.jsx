@@ -7,7 +7,8 @@ const Info = () => {
           <div className="grid">
             <div className="item">
                 <p className="heading"> 10k ever minted</p>
-                <p className="body">Each Might Tiger is unique & algorithmically generated & minted on the Solana blockchain.<p className="body"> We are only ever generating 10k completely unique Sol Souls. There will be no further generations.</p></p>
+                <p className="body">Each Might Tiger is unique & algorithmically generated & minted on the Solana blockchain.</p>
+                <p className="body"> We are only ever generating 10k completely unique Sol Souls. There will be no further generations.</p>
             
             </div>
 

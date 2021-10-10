@@ -118,11 +118,20 @@ border-radius: 39px;
     border-radius: 39px;
     }
 
+    .roadBox h1 {
+        font-family: 'Press Start 2P', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        text-align: left;
+        color: #FFFFFF;
+        }
+
     .roadBox h5 {
-        font-family: Helvetica;
+    font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 20px;
     text-align: left;
     text-transform: capitalize;
     
@@ -133,8 +142,8 @@ border-radius: 39px;
     font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 2.5rem;
+    font-size: 14px;
+    line-height: 2rem;
     text-align: left;
     padding-right: 0px;
     color: #FFFFFF;

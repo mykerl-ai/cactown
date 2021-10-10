@@ -104,7 +104,7 @@ color: #58BEDB;
     .footerbar {
         justify-items: center;
         flex-wrap: wrap;
-        padding: 20px;
+        padding: 10px;
     }
 
 }
@@ -115,7 +115,7 @@ color: #58BEDB;
         flex-direction: column;
         display: flex;
         gap: 10px;
-        padding: 40px;
+        padding: 10px;
         justify-items: left;
         place-content: left;
     }
@@ -126,4 +126,73 @@ color: #58BEDB;
         justify-content: space-around;
         place-items: center;
     }
+
+    .year h5 {
+        font-family: Changa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 2rem;
+    text-transform: capitalize;
+    color: #003751;
+    
+    }
+    
+    .year p {
+        
+    font-family: Changa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2rem;
+    
+    color: #58BEDB;
+    }
+
+    .footer h6 {
+        font-family: Changa;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 2rem;
+        color: #FFC160;
+    }
+    
+    .footer a {
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        color: #ffff;
+        font-size: 14px;
+        line-height: 2rem;
+        font-weight: 600;
+    }
+    
+    .name p {
+        font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2rem;
+    text-align: left;
+    width: 263px;
+    height: auto;
+    color: #FFFFFF;
+    }
+    
+    .name ul {
+        padding: 0px;
+    }
+    
+    .name li {
+        list-style-type: none;
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    margin: 30px 0px;
+    color: #FFFFFF;
+    text-align: left;
+    }
+    
 }

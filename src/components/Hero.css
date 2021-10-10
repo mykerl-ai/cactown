@@ -141,20 +141,20 @@ color: #FFFFFF;
     /* or 230% */
     width: 300px;
     text-align: center;
-    margin: 0px 20px;
+    margin: 30px 20px 0px 10px;
     
     color: #FFFFFF;
 }
 
 .hero h1 {
-    font-family: Montserrat;
+    font-family: Changa;
 font-style: normal;
 font-weight: bold;
-font-size: 32px;
-line-height: 47px;
+font-size: 36px;
+line-height: 2rem;
 text-transform: capitalize;
 text-align: center;
-color: #FFFFFF;
+color: #003751;
 
 }
 
