@@ -5,7 +5,7 @@ const Attributes = ()=> {
     return (
         <div >
 
-                <Hero title={null} titleHead="Cactown" par={null} cactus={null}/>
+                <Hero title={null} titleHead="Cactown" par={null}/>
 
                 <div className="attributes">
                     <div className="tab">

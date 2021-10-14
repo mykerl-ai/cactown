@@ -4,7 +4,7 @@ import Hero from './Hero'
 const Roadmap = ()=> {
     return (
         <div className="Roadmap">
-            <Hero title={null} titleHead="Cactown" par={null} cactus={null}/>
+            <Hero title={null} titleHead="Cactown" par={null}/>
 
 
             <div className="road">
