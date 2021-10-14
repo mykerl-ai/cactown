@@ -58,7 +58,7 @@ color: #FFFFFF;
 
 .flex {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 20px;
     gap: 200px;
 }
