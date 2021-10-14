@@ -64,6 +64,7 @@ color: #FFFFFF;
     place-content: center;
     align-content: center;
     margin-top: 20px;
+    padding-left: 50px;
     gap: 200px;
 }
 
@@ -93,6 +94,7 @@ color: #FFFFFF;
 
         .flex {
             gap: 50px;
+            padding-left: 0px;
         }
 
         .flex1 {
@@ -125,6 +127,7 @@ color: #FFFFFF;
         gap: 0px;
         flex-direction: column;
         justify-content: center;
+        padding-left: 0px;
     }
 
     .flex1 {
